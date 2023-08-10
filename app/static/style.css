@@ -1,0 +1,82 @@
+/*
+Basic Guidlines
+1. Both the divisions have 10px Margin on all the sides 
+2. Margin and padding of 15px
+3. Heading font size - 35;
+4. Heading font weight - 600
+
+*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+	font-family: 'Poppins',sans-serif;
+}
+
+.sidebar {
+    margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+    background-color: #282828;
+    border-radius: 15px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-top {
+    text-align: left;
+    margin: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	line-height: 0.7cm;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+
+.sidebar-bottom {
+    text-align: left;
+    margin: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	line-height: 0.7cm;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+
+.sidebar span {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    cursor: pointer;
+	color: #ebdbb2;
+	font-size: 18px;
+}
+
+.main {
+    margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+    background-color: #282828;
+    width: 80%;
+    flex: 3;
+	border-radius: 15px;
+}
+
+.heading1{
+    display: block;
+    color: white;
+    cursor: pointer;
+	color: #ebdbb2;
+	padding-left: 40px;
+	padding-top: 15px;
+	font-weight: 500;
+	font-size: 35px;
+	margin: 15px;
+	font-weight: 600;
+}
