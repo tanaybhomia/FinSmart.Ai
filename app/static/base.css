@@ -4,8 +4,9 @@ Basic Guidlines
 2. Margin and padding of 15px
 3. Heading font size - 35;
 4. Heading font weight - 600
-
+5. Basic Font weigth - 400
 */
+
 body {
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@ body {
 	font-size: 18px;
 }
 
-.main {
+.mainwindow {
     margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 5px;
@@ -71,15 +72,16 @@ body {
 	border: 2px solid #ebdbb2;
 }
 
-.heading1{
+.pagetitle {
     display: block;
     color: white;
     cursor: pointer;
 	color: #ebdbb2;
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-top: 15px;
 	font-weight: 500;
 	font-size: 35px;
 	margin: 15px;
 	font-weight: 600;
+	padding-right: 30px;
 }
