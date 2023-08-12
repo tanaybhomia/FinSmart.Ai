@@ -7,16 +7,47 @@ Basic Guidlines
 5. Basic Font weigth - 400
 */
 
-body {
+body 
+{
     margin: 0;
     padding: 0;
     display: flex;
     min-height: 100vh;
 	font-family: 'Poppins',sans-serif;
 	background-color: #1d2021;
+	color: #ebdbb2;
 }
-
-.sidebar {
+.sidebar-top 
+{
+    text-align: left;
+    margin: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	line-height: 0.7cm;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+.sidebar-bottom
+{
+    text-align: left;
+    margin: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	line-height: 0.7cm;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+.sidebar span 
+{
+    display: block;
+    padding: 10px 0;
+    color: white;
+    cursor: pointer;
+	color: #ebdbb2;
+	font-size: 18px;
+}
+.sidebar 
+{
     margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 10px;
@@ -30,36 +61,6 @@ body {
 	border: 2px solid #ebdbb2;
 	background-color: #282828;
 }
-
-.sidebar-top {
-    text-align: left;
-    margin: 15px;
-	padding-top: 15px;
-	padding-left: 20px;
-	line-height: 0.7cm;
-	font-family: 'Poppins',sans-serif;
-	font-weight: 400;
-}
-
-.sidebar-bottom {
-    text-align: left;
-    margin: 15px;
-	padding-bottom: 15px;
-	padding-left: 20px;
-	line-height: 0.7cm;
-	font-family: 'Poppins',sans-serif;
-	font-weight: 400;
-}
-
-.sidebar span {
-    display: block;
-    padding: 10px 0;
-    color: white;
-    cursor: pointer;
-	color: #ebdbb2;
-	font-size: 18px;
-}
-
 .mainwindow {
     margin-top: 10px;
 	margin-bottom: 10px;
@@ -70,8 +71,9 @@ body {
     flex: 3;
 	border-radius: 15px;
 	border: 2px solid #ebdbb2;
+	display: flex;
+	flex-direction: column;
 }
-
 .pagetitle {
     display: block;
     color: white;
@@ -84,4 +86,59 @@ body {
 	margin: 15px;
 	font-weight: 600;
 	padding-right: 30px;
+}
+.content
+{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 100%;
+	padding-bottom: 30px;
+	/*border: #ebdbb2 solid 1px;*/
+	border-radius: 15px;
+	margin-top: 15px;
+}
+.chatbot
+{
+	border: #ebdbb2 solid 2px;
+	border-radius: 15px;
+	margin: 15px;
+	height: 240px;
+}
+.expanalysis
+{
+	border: #ebdbb2 solid 2px;
+	border-radius: 15px;
+	margin: 15px;
+}
+.bills
+{
+	border: #ebdbb2 solid 2px;
+	border-radius: 15px;
+	margin: 15px;
+	height: 240px;
+}
+.budgets
+{
+	border: #ebdbb2 solid 2px;
+	border-radius: 15px;
+	margin: 15px;
+}
+.chart
+{
+	border: #ebdbb2 solid 2px;
+	border-radius: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 275px;
+}
+.sec1
+{
+	padding-bottom: 15px;
+}
+.sec3
+{
+	padding-top: 15px;
 }
