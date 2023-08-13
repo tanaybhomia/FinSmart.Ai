@@ -192,6 +192,10 @@ body
 {
 	color: #000000;
 }
+.chatbot .contents
+{
+	padding-top: 10px;
+}
 .image
 {
 	height: auto;
