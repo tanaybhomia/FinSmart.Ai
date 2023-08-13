@@ -101,6 +101,12 @@ body
 	border-radius: 15px;
 	margin-top: 15px;
 }
+.sec1
+{
+	height: 49.5%;
+	width: 50%;
+	float: left;
+}
 .chatbot
 {
 	border: #ebdbb2 solid 2px;
@@ -108,23 +114,59 @@ body
 	margin: 15px;
 	overflow: hidden;
 }
-.sec1
-{
-	padding-bottom: 15px;
-	height: 54%;
-	width: 50%;
-	float: left;
-}
 .sec2
 {
-	border-radius: 15px;
-	padding-bottom: 15px;
-	height: 54%;
+	padding-bottom: 1px;
+	height: 25%;
 	width: 50%;
 	float: right;
 }
+.bills
+{
+	border: #ebdbb2 solid 2px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+.goals
+{
+	border: #ebdbb2 solid 2px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+}
+.analysis
+{
+	border: #ebdbb2 solid 2px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+}
+.budget
+{
+	border: #ebdbb2 solid 2px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-top: 5px;
+}
 .sec3
 {
+	height: 25%;
+	width: 50%;
+	float: right;
+}
+.sec4
+{
+	height: 50%;
+	width: 100%;
+}
+.chart
+{
+	border: #ebdbb2 solid 2px;
 	border-radius: 15px;
 }
 .chatbot , .chart span
