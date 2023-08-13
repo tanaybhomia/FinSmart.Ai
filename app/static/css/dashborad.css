@@ -14,8 +14,7 @@ body
     display: flex;
     min-height: 100vh;
 	font-family: 'Poppins',sans-serif;
-	color: #ebdbb2;
-	background-color: #ebdbb2;
+	background-color: #ffffff;
 	overflow: hidden;
 }
 .sidebar-top 
@@ -44,7 +43,6 @@ body
     padding: 10px 0;
     color: white;
     cursor: pointer;
-	color: #ebdbb2;
 	font-size: 18px;
 }
 .sidebar 
@@ -59,19 +57,17 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-	border: 2px solid #ebdbb2;
-	background-color: #282828;
+	background-color: #000000;
 }
 .mainwindow {
     margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 5px;
 	margin-right: 10px;
-    background-color: #282828;
+    background-color: #000000;
     width: 70%;
     flex: 2.5;
 	border-radius: 15px;
-	border: 2px solid #ebdbb2;
 	display: flex;
 	flex-direction: column;
 }
@@ -79,7 +75,6 @@ body
     display: block;
     color: white;
     cursor: pointer;
-	color: #ebdbb2;
 	padding-left: 30px;
 	padding-top: 15px;
 	font-weight: 500;
@@ -109,10 +104,10 @@ body
 }
 .chatbot
 {
-	border: #ebdbb2 solid 2px;
 	border-radius: 15px;
 	margin: 15px;
 	overflow: hidden;
+	background-color: #ffffff;
 }
 .sec2
 {
@@ -123,19 +118,21 @@ body
 }
 .bills
 {
-	border: #ebdbb2 solid 2px;
 	width: 90%;
 	height: 90%;
 	border-radius: 15px;
 	margin-right: 20px;
 	margin-bottom: 5px;
+	background-color: #3b2868;
+	color: #ffffff
 }
 .goals
 {
-	border: #ebdbb2 solid 2px;
 	width: 90%;
 	height: 90%;
 	border-radius: 15px;
+	background-color: #fd5258;
+	color: #ffffff;
 }
 .sec3
 {
@@ -145,19 +142,21 @@ body
 }
 .analysis
 {
-	border: #ebdbb2 solid 2px;
 	width: 90%;
 	height: 90%;
 	border-radius: 15px;
+	background-color: #ffac2c;
+	color: #ffffff;
 }
 .budget
 {
-	border: #ebdbb2 solid 2px;
 	width: 90%;
 	height: 90%;
 	border-radius: 15px;
 	margin-right: 20px;
 	margin-top: 5px;
+	background-color: #18c7b8;
+	color: #ffffff;
 }
 .sec4
 {
@@ -168,10 +167,11 @@ body
 }
 .chart
 {
-	border: #ebdbb2 solid 2px;
 	border-radius: 15px;
 	width: 100%;
 	max-width: 100%;
+	background-color: #1f2229;
+	color: #66676c;
 }
 .visual 
 {
@@ -191,4 +191,8 @@ body
 	font-size: 24px;
 	font-weight: 600;
 	padding-top: 10px;
+}
+.chatbot .title
+{
+	color: #000000;
 }
