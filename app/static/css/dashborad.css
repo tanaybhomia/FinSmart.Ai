@@ -108,49 +108,26 @@ body
 	margin: 15px;
 	overflow: hidden;
 }
-.expanalysis
-{
-	border: #ebdbb2 solid 2px;
-	border-radius: 15px;
-	margin: 15px;
-	overflow: hidden;
-}
-.bills
-{
-	border: #ebdbb2 solid 2px;
-	border-radius: 15px;
-	margin: 15px;
-	overflow: hidden;
-}
-.budgets
-{
-	border: #ebdbb2 solid 2px;
-	border-radius: 15px;
-	margin: 15px;
-	overflow: hidden;
-}
-.chart
-{
-	border: #ebdbb2 solid 2px;
-	border-radius: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
 .sec1
 {
 	padding-bottom: 15px;
-	height: 50%;
+	height: 54%;
+	width: 50%;
+	float: left;
 }
 .sec2
 {
-	height: 50%
+	border-radius: 15px;
+	padding-bottom: 15px;
+	height: 54%;
+	width: 50%;
+	float: right;
 }
 .sec3
 {
-	padding-top: 15px;
-	height: 50%
+	border-radius: 15px;
 }
-.chatbot , .expanalysis, .bills, .budgets, .chart span
+.chatbot , .chart span
 {
 	align-items: left;
 	font-size: 20px;
