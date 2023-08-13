@@ -101,13 +101,16 @@ body
 	height: 49.5%;
 	width: 50%;
 	float: left;
+	overflow: hidden;
 }
 .chatbot
 {
 	border-radius: 15px;
 	margin: 15px;
-	overflow: hidden;
 	background-color: #ffffff;
+	height: 97%;
+	width: 100%;
+	overflow: hidden;
 }
 .sec2
 {
@@ -124,7 +127,8 @@ body
 	margin-right: 20px;
 	margin-bottom: 5px;
 	background-color: #3b2868;
-	color: #ffffff
+	color: #ffffff;
+	overflow: hidden;
 }
 .goals
 {
@@ -133,6 +137,7 @@ body
 	border-radius: 15px;
 	background-color: #fd5258;
 	color: #ffffff;
+	overflow: hidden;
 }
 .sec3
 {
@@ -147,6 +152,7 @@ body
 	border-radius: 15px;
 	background-color: #ffac2c;
 	color: #ffffff;
+	overflow: hidden;
 }
 .budget
 {
@@ -157,6 +163,7 @@ body
 	margin-top: 5px;
 	background-color: #18c7b8;
 	color: #ffffff;
+	overflow: hidden;
 }
 .sec4
 {
@@ -172,18 +179,7 @@ body
 	max-width: 100%;
 	background-color: #1f2229;
 	color: #66676c;
-}
-.visual 
-{
-	height: 120px;
-	align-items: center;
-	text-align: center;
-}
-.visual img
-{
-	height: 300px;
-	width: 300px;
-	padding-top: 20px;
+	overflow: hidden;
 }
 .title
 {
@@ -195,4 +191,35 @@ body
 .chatbot .title
 {
 	color: #000000;
+}
+.image
+{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+.image img
+{
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	object-fit: contain;
+}
+.visual
+{
+	text-align: center;
+}
+.image2
+{
+	height: auto;
+	width: 100%;
+	padding-top: 15%;
+	padding-left: 30%;
+	position: relative;
+}
+.image2 img
+{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 }
