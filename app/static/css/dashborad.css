@@ -139,16 +139,16 @@ body
 .sec1
 {
 	padding-bottom: 15px;
-	height: 30%;
+	height: 50%;
 }
 .sec2
 {
-	height: 30%;
+	height: 50%
 }
 .sec3
 {
 	padding-top: 15px;
-	height: 36%;
+	height: 50%
 }
 .chatbot , .expanalysis, .bills, .budgets, .chart span
 {
