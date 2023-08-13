@@ -137,6 +137,12 @@ body
 	height: 90%;
 	border-radius: 15px;
 }
+.sec3
+{
+	height: 25%;
+	width: 50%;
+	float: right;
+}
 .analysis
 {
 	border: #ebdbb2 solid 2px;
@@ -153,23 +159,19 @@ body
 	margin-right: 20px;
 	margin-top: 5px;
 }
-.sec3
-{
-	height: 25%;
-	width: 50%;
-	float: right;
-}
 .sec4
 {
-	height: 50%;
+	height: 49.5%;
 	width: 100%;
 }
 .chart
 {
 	border: #ebdbb2 solid 2px;
 	border-radius: 15px;
+	width: 100%;
+	max-width: 100%;
 }
-.chatbot , .chart span
+.chatbot span
 {
 	align-items: left;
 	font-size: 20px;
