@@ -96,22 +96,35 @@ body
 	border-radius: 15px;
 	margin-top: 15px;
 }
+.main
+{
+	height: 300px;
+}
 .profilepic
 {
-	height: 400px;
+	height: 300px;
 	float: left;
 	display: inline;
 	padding-right: 20px;
+	align-items: center;
+	width: 300px;
 }
-.profilepic img
+.pic
 {
-	height: 250px;
-	border-radius: 50%;
-	padding-top: 10px;
+	margin-top: 15px;
+	height: 280px;
+	align-items: center;
+	width: auto;
+	border-radius: 15px;
+}
+.pic img
+{
+	border-radius: 15px;
 }
 .name
 {
-	height: 400px;
+	height: 200px;
+	
 }
 .name .title
 {
@@ -129,22 +142,38 @@ body
 .links
 {
 	padding-top: 20px;
-	height: 24px;
 	column-gap: 20px;
-}
-.github
-{
-	height: 24px;
+	width: 100%;
+	padding-left: 11px;
+	height: auto;
 	align-items: center;
 	text-align: center;
 }
+.github
+{
+	background-color: #3b2868;
+	border-radius: 15px;
+}
 .instagram
 {
-	height: 24px;
-	text-align: center;
+	background-color: #18c7b8;
+	border-radius: 15px;
 }
 .linkedin
 {
-	height: 24px;
+	background-color: #ffac2c;
+	border-radius: 15px;
+}
+.twitter
+{
+	background-color: #fd5258;
+	border-radius: 15px;
+}
+.icon {
+	padding-top: 6px;
+    width: 60px; /* Adjust icon size as needed */
+    height: 60px;
+    margin: 0 auto; /* Center the icon horizontally */
+	align-items: center;
 	text-align: center;
 }
