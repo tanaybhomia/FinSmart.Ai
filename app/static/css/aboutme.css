@@ -14,8 +14,7 @@ body
     display: flex;
     min-height: 100vh;
 	font-family: 'Poppins',sans-serif;
-	color: #ebdbb2;
-	background-color: #ebdbb2;
+	background-color: #ffffff;
 }
 .sidebar-top 
 {
@@ -43,7 +42,6 @@ body
     padding: 10px 0;
     color: white;
     cursor: pointer;
-	color: #ebdbb2;
 	font-size: 18px;
 }
 .sidebar 
@@ -58,19 +56,17 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-	border: 2px solid #ebdbb2;
-	background-color: #282828;
+	background-color: #000000;
 }
 .mainwindow {
     margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 5px;
 	margin-right: 10px;
-    background-color: #282828;
+    background-color: #000000;
     width: 80%;
     flex: 3;
 	border-radius: 15px;
-	border: 2px solid #ebdbb2;
 	display: flex;
 	flex-direction: column;
 }
@@ -78,7 +74,6 @@ body
     display: block;
     color: white;
     cursor: pointer;
-	color: #ebdbb2;
 	padding-left: 30px;
 	padding-top: 15px;
 	font-weight: 500;
@@ -106,6 +101,7 @@ body
 	height: 400px;
 	float: left;
 	display: inline;
+	padding-right: 20px;
 }
 .profilepic img
 {
@@ -122,11 +118,13 @@ body
 	font-size: 40px;
 	font-style: bold;
 	font-weight: 500;
+	color: #ffffff;
 }
 .name .about
 {
 	align-items: justify;
 	text-align: justify;
+	color: #ffffff;
 }
 .links
 {
