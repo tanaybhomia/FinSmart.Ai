@@ -37,7 +37,7 @@ body
 	font-family: 'Poppins',sans-serif;
 	font-weight: 400;
 }
-.sidebar span
+.sidebar span 
 {
     display: block;
     padding: 10px 0;
