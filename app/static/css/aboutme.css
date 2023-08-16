@@ -186,7 +186,6 @@ body
 .camera-image-container {
     position: relative;
     height: 100%;
-    transition: transform 0.3s ease-in-out;
 }
 
 .camera-image {
@@ -195,9 +194,10 @@ body
     border-radius: 15px;
 	display: block;
 	padding-top: 5%;
+	transition: transform 0.3s ease-in-out;
 }
 
-.camera-image-container:hover {
+.camera-image:hover {
     transform: translateY(-20px);
 }
 
