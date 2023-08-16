@@ -172,7 +172,7 @@ body
 }
 .icon {
 	padding-top: 6px;
-    width: 60px; /* Adjust icon size as needed */
+    width: 58px; /* Adjust icon size as needed */
     height: 60px;
     margin: 0 auto; /* Center the icon horizontally */
 	align-items: center;
@@ -195,11 +195,20 @@ body
     border-radius: 15px;
 }
 
-/*Hover Animations*/
-@keyframes links {
-	
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
-.github,.instagram,.linkedin,.twitter :hover
-{
-	width: 70px;
+
+/*Hover Animations for icon buttons*/
+/* Apply a scale transform on hover */
+.icon-button:hover img {
+    transform: scale(1.1);
+}
+
+/* Add a smooth transition effect */
+.icon-button img {
+    transition: transform 0.3s ease-in-out; /* Adjust the transition speed as needed */
 }
