@@ -73,6 +73,8 @@ body
 	flex-direction: column;
 	max-height: calc(100vh - 20px);
 	overflow-y: auto;
+	overflow: hidden;
+	position: relative;
 }
 .pagetitle {
     display: block;
@@ -96,6 +98,7 @@ body
 	/*border: #ebdbb2 solid 1px;*/
 	border-radius: 15px;
 	margin-top: 15px;
+	overflow: hidden;
 }
 .profilepic
 {
@@ -174,11 +177,19 @@ body
 	align-items: center;
 	text-align: center;
 }
-.camera
-{
-	float: left;
-	height: 300px;
-	overflow: hidden;
-	padding-top: 7.8%;
-	margin-top: auto;
+.camera {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 5%;
+    text-align: center;
+    background-color: #000000;
+}
+.camera img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
 }

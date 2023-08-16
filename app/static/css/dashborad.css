@@ -72,6 +72,7 @@ body
 	flex-direction: column;
 	max-height: calc(100vh - 20px);
 	overflow-y: auto;
+	position: relative;
 }
 .pagetitle {
     display: block;
