@@ -1,9 +1,8 @@
-# Navigation for the user 
 from flask import Blueprint
 from flask import render_template
 
-views = Blueprint('view',__name__)
- 
-@views.route('/') #decorator
+view = Blueprint('view', __name__)
+
+@view.route('/')  # Decorator
 def home():
     return render_template('dashboard.html')
