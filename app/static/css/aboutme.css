@@ -96,9 +96,6 @@ body
 	/*border: #ebdbb2 solid 1px;*/
 	border-radius: 15px;
 	margin-top: 15px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
 .profilepic
 {
@@ -182,6 +179,6 @@ body
 	float: left;
 	height: 300px;
 	overflow: hidden;
-	padding-top: 5%;
+	padding-top: 7.8%;
 	margin-top: auto;
 }
