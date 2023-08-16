@@ -178,37 +178,33 @@ body
 	align-items: center;
 	text-align: center;
 }
-.camera {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 300px;
-    overflow: hidden;
-    padding-top: 5%;
-    text-align: center;
-    background-color: #000000;
-}
-.camera img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-}
-
 .icon-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
 }
-
-/*Hover Animations for icon buttons*/
-/* Apply a scale transform on hover */
-.icon-button:hover img {
-    transform: scale(1.1);
+.camera-image-container {
+    position: relative;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Add a smooth transition effect */
+.camera-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.camera-image-container:hover {
+    transform: translateY(-20px);
+}
+
+/*Hover Animations for icon buttons*/
+.icon-button:hover img {
+    transform: scale(1.2);
+}
+
 .icon-button img {
     transition: transform 0.3s ease-in-out; /* Adjust the transition speed as needed */
 }
