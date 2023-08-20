@@ -40,10 +40,18 @@ body
 .sidebar span 
 {
     display: block;
-    padding: 10px 0;
+    padding: 10px;
     color: white;
     cursor: pointer;
 	font-size: 18px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar i {
+    margin-right: 10px; /* Add space between icon and text */
 }
 .sidebar 
 {
@@ -152,7 +160,7 @@ body
 {
 	width: 90%;
 	height: 90%;
-	border-radius: 15px;
+		border-radius: 15px;
 	background-color: #ffac2c;
 	color: #ffffff;
 	overflow: hidden;
