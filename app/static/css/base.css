@@ -70,6 +70,9 @@ body
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
+	max-height: calc(100vh - 20px);
+	overflow-y: auto;
+	position: relative;
 }
 .pagetitle {
     display: block;
@@ -95,4 +98,96 @@ body
 	/*border: #ebdbb2 solid 1px;*/
 	border-radius: 15px;
 	margin-top: 15px;
+}
+.sec1
+{
+	height: 49.5%;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.chatbot
+{
+	border-radius: 15px;
+	margin: 15px;
+	background-color: #ffffff;
+	height: 97%;
+	width: 100%;
+	overflow: hidden;
+}
+.sec2
+{
+	padding-bottom: 1px;
+	height: 25%;
+	width: 50%;
+	float: right;
+}
+.bills
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	background-color: #3b2868;
+	color: #ffffff;
+	overflow: hidden;
+}
+.goals
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	background-color: #fd5258;
+	color: #ffffff;
+	overflow: hidden;
+}
+.sec3
+{
+	height: 25%;
+	width: 50%;
+	float: right;
+}
+.analysis
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	background-color: #ffac2c;
+	color: #ffffff;
+	overflow: hidden;
+}
+.budget
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-top: 5px;
+	background-color: #18c7b8;
+	color: #ffffff;
+	overflow: hidden;
+}
+.sec4
+{
+	height: 49.1%;
+	width: 99.2%;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.chart
+{
+	border-radius: 15px;
+	width: 100%;
+	max-width: 100%;
+	background-color: #1f2229;
+	color: #66676c;
+	overflow: hidden;
+}
+.title
+{
+	align-items: left;
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 10px;
 }
